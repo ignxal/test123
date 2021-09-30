@@ -66,11 +66,11 @@ def escalation(user_input):
     else:
         return bot_response
 #test
-"""if __name__ == '__main__':
+if __name__ == '__main__':
     while True:
         try:
             user_input = input('You: ')
             print(escalation(user_input))
             print(neg_distribution)
         except (KeyboardInterrupt, EOFError, SystemExit):
-            break"""
+            break
